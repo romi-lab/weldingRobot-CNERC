@@ -6,7 +6,7 @@ set( CMAKE_CXX_FLAGS "-std=c++11" )
 find_package(OpenCV REQUIRED)
 find_package(PCL 1.6 REQUIRED)
 find_package( Sophus REQUIRED )
-
+  
 find_package(catkin REQUIRED COMPONENTS
   tf
   tf2
